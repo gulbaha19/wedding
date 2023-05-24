@@ -1,0 +1,16 @@
+.timerBox {
+  border-radius: 180px;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+}
+.wrapCounter {
+  min-width: 390px;
+  display: flex;
+  justify-content: space-around;
+}

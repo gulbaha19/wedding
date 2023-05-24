@@ -1,0 +1,33 @@
+.invitationWrap {
+  background-image: url(https://wedinvent.ru/css/lace/img/bg-pattern-1.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.names {
+  font-family: "Alex Brush", cursive;
+}
+.invitationTxt {
+  padding: 0 20px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 2vh;
+}
+.photo {
+  max-width: 150px;
+  max-height: 150px;
+  border: solid #fff 6px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  object-fit: contain;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.hearts {
+  background-image: url(https://wedinvent.ru/css/lace/img/pic-hearts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}

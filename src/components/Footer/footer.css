@@ -1,0 +1,16 @@
+.footer {
+  background-color: #f5e7d3;
+  background-image: url(https://wedinvent.ru/css/lace/img/bg-footer-pattern.png);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: auto;
+  /* padding-bottom: 200px; */
+}
+.footer img {
+  width: 300px;
+}
+.footertxt {
+  font-size: 12px;
+  color: #84898c;
+  margin-top: 150px;
+}

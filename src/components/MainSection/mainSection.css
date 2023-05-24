@@ -1,0 +1,18 @@
+.wrap {
+  background-color: #f5e7d3;
+  padding-bottom: 50px;
+  background-image: url(https://wedinvent.ru/css/lace/img/bg-header-pattern.png);
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-size: auto;
+  padding-top: 200px;
+}
+.names {
+  font-family: "Alex Brush", cursive;
+}
+.names span {
+  color: #c56174;
+}
+.mainSectionTitle {
+  margin-bottom: 30px;
+}

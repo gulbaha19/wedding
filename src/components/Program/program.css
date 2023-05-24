@@ -1,0 +1,10 @@
+.programWrap {
+  background-image: url(https://wedinvent.ru/css/lace/img/bg-pattern-2.png);
+  padding: 50px 20px;
+}
+.programWrap h3 {
+  font-size: 38px;
+  color: rgb(78, 78, 77);
+  margin-bottom: 40px;
+  font-family: "Alex Brush", cursive;
+}
