@@ -14,6 +14,12 @@ const MapSection = () => {
       <h2>Свадебный ужин</h2>
       <p>Ресторан</p>
       <p style={{ color: "#4e4e4d" }}>Петропавловск, ул. батыра Баяна, 107 , Ресторан: "Туран"</p>
+      <p style={{ color: "#4e4e4d" }}>
+        2GIS:
+        <a href="https://2gis.kz/petropavlovsk/geo/70000001041110828" style={{ color: "#4e4e4d" }}>
+          Петропавловск, ул. батыра Баяна, 107 , Ресторан: "Туран"
+        </a>
+      </p>
       <section className="bank_balance_ymap">
         <YMaps>
           <Map
