@@ -6,18 +6,20 @@ import QuestionsSection from "./components/QuestionsSection/QuestionsSection";
 import Program from "./components/Program/Program";
 import MapSection from "./components/Map/Map";
 import Footer from "./components/Footer/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./Main";
+import GuestList from "./GuestList";
 
 function App() {
   return (
-    <div className="App">
-      <MainSection />
-      <ApproveSection />
-      <InvitationSection />
-      <QuestionsSection />
-      <Program />
-      <MapSection />
-      <Footer />
-    </div>
+    <BrowserRouter basename="/">
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/guests" element={<GuestList />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

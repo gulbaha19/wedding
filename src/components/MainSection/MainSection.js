@@ -8,7 +8,7 @@ const MainSection = () => {
         <h1 className="names">
           Arman <span>&</span> Kamila
         </h1>
-        <p>29 Июля 2023 года</p>
+        <p>30 Июня 2023 года</p>
         <img
           src="https://wedinvent.ru/css/lace/img/pic-we-are-married-right-newlyweds.png"
           alt=""

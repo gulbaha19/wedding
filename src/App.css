@@ -41,3 +41,13 @@
     transform: rotate(360deg);
   }
 }
+.audioPlayer {
+  position: fixed;
+  border-radius: 180px;
+  width: 70px;
+  height: 70px;
+  background: white;
+  border-color: red;
+  top: 20px;
+  right: 20px;
+}

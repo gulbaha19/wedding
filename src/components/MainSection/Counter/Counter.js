@@ -8,7 +8,7 @@ const Counter = () => {
 
   let interval = useRef();
   const startTimer = () => {
-    const countDownDate = new Date("Jun 29, 2023 18:00:00").getTime();
+    const countDownDate = new Date("Jun 30, 2023 18:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

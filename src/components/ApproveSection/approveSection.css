@@ -67,3 +67,7 @@
   color: #363838;
   background-color: #fef7f8;
 }
+.alert {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./approveSection.css";
 import {
+  Alert,
+  AlertTitle,
   Box,
   Button,
   Checkbox,
@@ -17,7 +19,7 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
+  width: 350,
   bgcolor: "background.paper",
   // border: "2px solid #000",
   boxShadow: 24,
@@ -25,6 +27,7 @@ const style = {
 };
 const ApproveSection = () => {
   const [openModal, setOpenModal] = useState(false);
+  const [alert, setAlert] = useState(false);
 
   const [openModalReject, setOpenModalReject] = useState(false);
 
@@ -44,6 +47,8 @@ const ApproveSection = () => {
       { name: name, attendance: true, children: children, count: people },
     );
     setOpenModal(false);
+    setAlert(true);
+    setTimeout(() => setAlert(false), 2000);
   };
   const handleSendReject = () => {
     axios.post(
@@ -140,6 +145,18 @@ const ApproveSection = () => {
             onChange={(e) => setMessage(e.target.value)}
           />
           <Button onClick={() => handleSendReject()}> Отправить </Button>
+        </Box>
+      </Modal>
+      <Modal
+        open={alert}
+        onClose={() => setAlert(false)}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description">
+        <Box sx={style}>
+          <Alert severity="success">
+            <AlertTitle>Спасибо!</AlertTitle>
+            Ждем Вас<strong>!</strong>
+          </Alert>
         </Box>
       </Modal>
     </div>

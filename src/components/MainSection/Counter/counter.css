@@ -8,6 +8,8 @@
   align-items: center;
   padding-top: 17px;
   box-sizing: border-box;
+  font-style: italic;
+  font-family: "Caveat", cursive;
 }
 .wrapCounter {
   min-width: 390px;

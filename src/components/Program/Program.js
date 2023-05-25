@@ -9,7 +9,7 @@ const programArr = [
   {
     time: "11:30",
     title: "Cырга салу",
-    description: "Сарга салу ",
+    description: "Cырга салу ",
     adress: "дом",
   },
   {
